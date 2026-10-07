@@ -6,7 +6,7 @@ if(condition):
 elif(condition):
     statement
 else:
-statement
+    statement
 """
 #eg 1 
 age = 9
@@ -27,6 +27,6 @@ elif(signal_color == 'green'):
 elif(signal_color == 'yellow'):
     print("slowdown")
 else : 
-    print("g mara le")
+    print("you are not seeing a signal you are blind")
 
 #very important point to be noted is that all these spaces we use in if else or anywhere is called indentation bcus in c++ and java we use { block of code } to compact everything but in python there is no such thing as that so we use indentation
