@@ -6,10 +6,10 @@ x = int(input("The marks of phy is : "))
 Student.update({"phy" : x})
 
 y = int(input("The marks of maths is : "))
-Student.update({"maths" : x})
+Student.update({"maths" : y})
 
 z = int(input("The marks of chem is : "))
-Student.update({"chem" : x})
+Student.update({"chem" : z})
 
 
 print(Student)

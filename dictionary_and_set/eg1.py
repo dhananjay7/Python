@@ -8,4 +8,4 @@ meaning = {
 }
 
 print(meaning)
-print(type(meaning))
+print(type(meaning["table"]))

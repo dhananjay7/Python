@@ -9,3 +9,4 @@ subjects = {"python", "java", "C++", "python", "javascript",
 
 classes = len(subjects)
 print("The number of classrooms needed is :" , classes)
+print(type(subjects))

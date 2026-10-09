@@ -32,5 +32,6 @@ student = {
 }
 
 print(student)
+print(type(student["subjects"]))
 print(student["subjects"]["chemistry"])
 print(len(student["subjects"]))
