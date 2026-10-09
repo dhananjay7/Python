@@ -5,7 +5,7 @@ print(tuple)
 print(type(tuple))
 print(len(tuple)) 
 
-# just like list tuple can also be indexed but not mutated
+# just like list, tuple can also be indexed but not mutated
 
 print(tuple[0]) 
 print(tuple[2])
