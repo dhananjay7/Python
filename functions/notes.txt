@@ -1,0 +1,32 @@
+Functions - Block of statements that perform a specific task
+it stops the redundancy of the code
+
+parameter - it is the value we take (function definition)
+
+argument - it is the value give to the function while we call it (function call)
+
+syntax - def function_name(param 1, param 2, ...):
+            #some work 
+            return value
+
+above syntax is for function definition
+
+now for function call
+
+function_name(argu 1 , argu 2, ...)
+
+TWO TYPES OF FUNCTIONS 
+
+1.) built-in - these are the functions which are already defined for us [A built-in function is a predefined function provided directly by the Python language that is always available to use without importing any modules or writing custom definitions.]
+
+eg - print(), len(), type(), range()
+
+2.) user-defined - these are the functions users (we) create while programming [A user-defined function is a custom block of reusable code created by a programmer using the def keyword to perform a specific task based on the program's requirements.]
+
+eg - calc_sum from eg1
+
+DEFAULT PARAMETERS 
+
+- assigning a default value to parameter, which is used when no argument is passed 
+
+eg3.py
