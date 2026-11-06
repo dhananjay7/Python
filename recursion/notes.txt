@@ -1,0 +1,3 @@
+recursion = when a function calls it repeatedly 
+we can do all the work of loop using recursion and recursion work using loops also sometimes recursion is easier to write a hard loop code 
+
