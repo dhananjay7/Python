@@ -1,0 +1,72 @@
+FILE I/O = python can be used to perform operations on a file (read & write data)
+
+there are 2 types of files
+1.) text files 
+= .txt , .docs , .log etc...
+
+2.) binary files
+= .mp3 , .mov , .jpeg , .png etc..
+
+OPERATIONS like = 
+
+read , write & update
+but we have to keep one thing in mind firstly before doing anything we have to (open) and then (close) it after our work is done
+
+syntax - 
+
+open("file_name", "mode")  //we can put path to in the file name if the file is some other place and the default mode is reading (r)
+// then some operations
+close()
+
+also - 
+
+Character    Meaning
+'r'          open for reading (default)
+'w'          open for writing, truncating the file first
+'x'          create a new file and open it for writing
+'a'          open for writing, appending to the end of the file if it exists
+'b'          binary mode
+'t'          text mode (default)
+'+'          open a disk file for updating (reading and writing)
+
+READING A FILE : 
+
+1.) data.read()
+- we can read or say view the whole file in one go 
+
+2.) data.readline()
+- we can read one line at a time only of a file
+
+if we use readline() after read() then we will see nothing since all the data is been read already by the file 
+
+WRITING A FILE :
+
+1.) open("file_name" , "w")
+f.write(///) - it overwrites the whole file means it first delete the entire data then add or rewrite what we want to add
+
+2.) open("file_name", "a")
+f.write(////) - it does not overwrite the file it appends meaning it add the new information at the back of the file or after the already written content
+
+in write if we put a file which does not exist the python will create it automatically for write and append
+
+r+ - no truncating we can write but it will overwrite the current context
+w+ - truncating and we can read the file also
+a+ - no truncating and we can append also
+
+with syntax - 
+with open("file_name", "mode") as f:
+    data = f.read()
+
+    as here is an alias now and we dont have to write close() since with does it automatically
+
+{{{{module - it is like a library a file written by another programmer that generally has a function we can use (like a code library)
+
+we use pip install module_name
+
+pip stands for package installer for python]]]]
+
+DELETING A FILE - 
+
+import os 
+
+os.remove(file_name)
